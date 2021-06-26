@@ -1,5 +1,3 @@
 #!/bin/bash -x
 
-echo "Welcome"
-
-echo $((RANDOM%10))
+echo $(($RANDOM%6 +1))
